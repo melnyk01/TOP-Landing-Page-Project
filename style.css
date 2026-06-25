@@ -10,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    flex: 1;
+
     background-color: #1f2937;
     flex-direction: column;
     color: #e5e7eb;
@@ -83,11 +83,10 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 #some-info {
-    flex: 1;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +117,6 @@ body {
 }
 
 #quote {
-    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
@@ -131,7 +129,7 @@ body {
     font-weight: 300;
     font-size: 36px;
     color: #1f2937;
-
+    
 }
 
 #quote-author {
@@ -142,11 +140,38 @@ body {
 }
 
 #sign-up {
-    flex-grow: 1;
-    background-color: white;
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 30px 80px;
+    border-radius: 10px;
 }
 
+#main-sign-up-text {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: large;
+}
 
+#secondary-sign-up-text {
+    color: #e5e7eb;
+    font-size: medium;
+    font-weight: 100;
+}
+
+#sign-up-btn {
+    margin-left: auto;
+    align-self: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: medium;
+    
+}
 
 /* Footer  */
 

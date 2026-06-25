@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+#header-sub {
+    display: flex;
+    margin: 15px 40px;
+}
+
+#header-sub #header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+#header-sub #header-links {
+    align-content: center;
+
+    margin-left: auto;
+}
+#header-sub ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0px;
+    
+}
+
+#header-content {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+#header-content #header-info {
+    margin: 0;
+}
+
+#main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#header-signup-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    margin: 10px 0px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+#header-img {
+    width: 500px;
+    height: 200px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#quote {
+    flex: 1;
+    background-color: #e5e7eb;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+}
+.signup {
+    flex-grow: 1;
+    background-color: white;
+}
+.footer {
+
+    background-color: #1f2937;
+}

@@ -4,6 +4,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "Roboto", sans-serif;
+
+
 }
 
 /* Header */
@@ -82,7 +84,9 @@ body {
 
 .content {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #some-info {
@@ -178,4 +182,7 @@ body {
 .footer {
 
     background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+    color: #f9faf8;
 }

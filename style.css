@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -8,6 +12,25 @@ body {
 
 }
 
+body#to-be-done {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#to-be-done {
+    color: #e5e7eb;
+    font-size: 54px;
+}
+
+a#to-be-done {
+    display: block;
+    padding: 10px;
+    color: #b1b1b1;
+    font-size: 32px;
+}
+/* Main page */
 /* Header */
 
 .header {
@@ -77,6 +100,7 @@ img#header-img {
 }
 
 #header-signup-button {
+    display: block;
     background-color: #3882f6;
     color: white;
     padding: 5px;
@@ -86,6 +110,7 @@ img#header-img {
     border-style: none;
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 #header-img {
     width: 500px;
@@ -123,6 +148,8 @@ img#header-img {
 
 #img-text {
     margin-top: 10px;
+    width: 150px;
+    text-align: center;
 }
 
 .content-img {
@@ -186,12 +213,17 @@ img#socials {
     height: 48px;
 }
 
+#linked-in-button {
+    background-color: #3882f6;
+    border-style: none;
+    cursor: pointer;
+}
 #sign-up-btn {
     align-self: center;
     background-color: #3882f6;
     color: #f9faf8;
     border-style: none;
-    border: 2px solid #f9faf8;
+    /* border: 2px solid #f9faf8; */
     border-radius: 5px;
     height: 40px;
     width: 140px;
@@ -206,7 +238,6 @@ img#socials {
     background-color: #1f2937;
     padding: 30px;
     text-align: center;
-
     color: #f9faf8;
 }
 

@@ -20,9 +20,11 @@
             </div>
             <div id="header-links">
                 <ul>
-                    <li>Achievements</li>
-                    <li>Background</li>
-                    <li>Goals</li>
+                    <a href="achievements.html"><li>Achievements</li></a>
+                    <a href="background.html"><li>Background</li>
+                    </a>
+                    <a href="goals.html"><li>Goals</li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -30,7 +32,9 @@
             <div id="header-info">
                 <div id="main-text">Vadym Melnyk</div>
                 <div id="secondary-text">Future Triathlete, Full-Stack Developer and overall awesome person!</div>
-                <button id="header-signup-button">Contact me!</button>
+                <a href="#contact-information" id="header-signup-button">
+                    Contact me!
+                </a>
             </div>
             <img id="header-img" src="images/Me.jpg" alt="Developer photo">
         </div>    
@@ -65,19 +69,29 @@
             <div id="quote-author">-David Goggins, Navy SEAL</div>
         </div>
     
-        <div id="sign-up">
-            <div id="main-sign-up-text">My socials</div>
-            <div id="container-socials">
-                <div id="socials-icons">
-                    <img id="socials" src="images/github.png" alt="github icon">
-                    <img id="socials" src="images/linkedin.png" alt="linkedin icon">
-                    <img id="socials" src="images/strava.png" alt="strava icon">
-                    <img id="socials" src="images/instagram.png" alt="instagram icon">
+        <section id="contact-information">
+            <div id="sign-up">
+                <div id="main-sign-up-text">My socials</div>
+                <div id="container-socials">
+                    <div id="socials-icons">
+                        <a href="https://github.com/melnyk01">
+                            <img id="socials" src="images/github.png" alt="github icon">
+                        </a>
+                        <button id="linked-in-button">
+                            <img id="socials" src="images/linkedin.png" alt="linkedin icon">
+                        </button>
+                        <a href="https://www.strava.com/athletes/161361490">
+                            <img id="socials" src="images/strava.png" alt="strava icon">
+                        </a>
+                        <a href="https://www.instagram.com/me.lnyk/">
+                            <img id="socials" src="images/instagram.png" alt="instagram icon">
+                        </a>
+                    </div>
+                    
                 </div>
-                
+                <button id="sign-up-btn">Let's connect!</button>
             </div>
-            <button id="sign-up-btn">Let's connect!</button>
-        </div>
+        </section>    
     </div>
 
     <div class="footer">
@@ -106,6 +120,8 @@
         </div>
     </div>
 
+
+    <script src="javascript.js"></script>
 </body>
 
 </html>
